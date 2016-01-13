@@ -1,0 +1,63 @@
+menu.UploadSpeed=Upload Speed
+menu.CpuFrequency=CPU Frequency
+menu.FlashSize=Flash Size
+menu.FlashMode=Flash Mode
+menu.FlashFreq=Flash Frequency
+menu.UploadTool=Upload Using
+menu.ResetMethod=Reset Method
+
+##############################################################
+qwavesyspws.name=Programmable Wireless Stamp (PWS)
+ 
+qwavesyspws.upload.tool=esptool
+qwavesyspws.upload.speed=460800
+qwavesyspws.upload.resetmethod=nodemcu
+qwavesyspws.upload.maximum_size=1044464
+qwavesyspws.upload.maximum_data_size=81920
+qwavesyspws.upload.wait_for_upload_port=true
+qwavesyspws.serial.disableDTR=true
+qwavesyspws.serial.disableRTS=true
+ 
+qwavesyspws.build.mcu=esp8266
+qwavesyspws.build.f_cpu=80000000L
+qwavesyspws.build.board=ESP8266_PWS
+qwavesyspws.build.core=esp8266
+qwavesyspws.build.variant=pws
+qwavesyspws.build.flash_mode=dio
+qwavesyspws.build.flash_size=4M
+qwavesyspws.build.flash_freq=40
+qwavesyspws.build.flash_ld=eagle.flash.4m.ld
+qwavesyspws.build.spiffs_start=0x200000
+qwavesyspws.build.spiffs_end=0x3FB000
+qwavesyspws.build.spiffs_pagesize=256
+qwavesyspws.build.spiffs_blocksize=8192
+
+qwavesyspws.menu.UploadTool.esptool=Serial
+qwavesyspws.menu.UploadTool.esptool.upload.tool=esptool
+qwavesyspws.menu.UploadTool.espota=OTA
+qwavesyspws.menu.UploadTool.espota.upload.tool=espota
+
+qwavesyspws.menu.CpuFrequency.80=80 MHz
+qwavesyspws.menu.CpuFrequency.80.build.f_cpu=80000000L
+qwavesyspws.menu.CpuFrequency.160=160 MHz
+qwavesyspws.menu.CpuFrequency.160.build.f_cpu=160000000L
+
+qwavesyspws.menu.UploadSpeed.460800.linux=460800
+qwavesyspws.menu.UploadSpeed.460800.macosx=460800
+qwavesyspws.menu.UploadSpeed.460800.upload.speed=460800
+qwavesyspws.menu.UploadSpeed.512000.windows=512000
+qwavesyspws.menu.UploadSpeed.512000.upload.speed=512000
+qwavesyspws.menu.UploadSpeed.921600=921600
+qwavesyspws.menu.UploadSpeed.921600.upload.speed=921600
+qwavesyspws.menu.UploadSpeed.115200=115200
+qwavesyspws.menu.UploadSpeed.115200.upload.speed=115200
+qwavesyspws.menu.UploadSpeed.9600=9600
+qwavesyspws.menu.UploadSpeed.9600.upload.speed=9600
+qwavesyspws.menu.UploadSpeed.57600=57600
+qwavesyspws.menu.UploadSpeed.57600.upload.speed=57600
+qwavesyspws.menu.UploadSpeed.256000.windows=256000
+qwavesyspws.menu.UploadSpeed.256000.upload.speed=256000
+qwavesyspws.menu.UploadSpeed.230400.linux=230400
+qwavesyspws.menu.UploadSpeed.230400.macosx=230400
+qwavesyspws.menu.UploadSpeed.230400.macosx=230400
+qwavesyspws.menu.UploadSpeed.230400.upload.speed=230400

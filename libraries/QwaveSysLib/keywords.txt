@@ -1,0 +1,29 @@
+#######################################
+# Syntax Coloring Map For DallasTemperature
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+QWAVESYS	KEYWORD1
+QwaveConnector	KEYWORD1
+TimerZero	KEYWORD1
+DallasTemperature	KEYWORD1
+Adafruit_MAX31855	KEYWORD1
+DHT	KEYWORD1
+MCP3208	KEYWORD1
+MCP79410	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
