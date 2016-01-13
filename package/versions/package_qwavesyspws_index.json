@@ -14,12 +14,12 @@
           "architecture": "esp8266",
           "version": "2.0.0-PWS-15",
           "category": "ESP8266",
-          "url": "https://github.com/QWaveSystems/pws/package/versions/2.0.0-PWS-15/qwavesyspws-2.0.0-PWS-15.zip",
+          "url": "https://raw.githubusercontent.com/QWaveSystems/PWS/master/package/versions/2.0.0-PWS-15/qwavesyspws-2.0.0-PWS-15.zip",
           "archiveFileName": "qwavesyspws-2.0.0-PWS-15.zip",
-          "checksum": "SHA-256:23ef4ad9d8261d2baf731b60848e44ff9e2f5b983f25abe7ed6395d62673518d",
-          "size": "5785061",
+          "checksum": "SHA-256:87ca8984435317686c00f4ab6e0b6c5bbb83b46fd2dac28b332540f77e5bdf93",
+          "size": "5783667",
           "help": {
-            "online": "https://github.com/QWaveSystems/pws/package/versions/2.0.0-PWS-15/doc/reference.html"
+            "online": "https://raw.githubusercontent.com/QWaveSystems/PWS/master/doc/reference.md"
           },
           "boards": [
             {
