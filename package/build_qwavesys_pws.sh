@@ -11,18 +11,18 @@ echo "Package name: $package_name"
 # Set REMOTE_URL environment variable to the address where the package will be
 # available for download. This gets written into package json file.
 if [ -z "$REMOTE_URL" ]; then
-    REMOTE_URL="https://raw.githubusercontent.com/QWaveSystems/PWS/master"
+    REMOTE_URL="QWaveSystems/PWS"
     echo "REMOTE_URL not defined, using default"
 fi
 echo "Remote: $REMOTE_URL"
 
 if [ -z "$PKG_URL" ]; then
-    PKG_URL="$REMOTE_URL/package/versions/$ver/$package_name.zip"
+    PKG_URL="https://raw.githubusercontent.com/$REMOTE_URL/master/package/versions/$ver/$package_name.zip"
 fi
 echo "Package: $PKG_URL"
 
 if [ -z "$DOC_URL" ]; then
-    DOC_URL="$REMOTE_URL/doc/reference.md"
+    DOC_URL="https://github.com/$REMOTE_URL/blob/master/doc/reference.md"
 fi
 echo "Docs: $DOC_URL"
 pushd ..
